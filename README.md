@@ -2,14 +2,14 @@
 
 ---
 
-|    Current Status     |    Stats     |
-| :-------------------: | :----------: |
-|  Total C++ Problems   |              |
-| Total Python Problems |      2       |
-| Total NodeJS Problems |              |
-| Current Daily Streak  |      1       |
-|      Last Streak      |              |
-|    Current Streak     | 09/17/2019 - |
+|    Current Status     | Stats |
+| :-------------------: | :---: |
+|  Total C++ Problems   |       |
+| Total Python Problems |   2   |
+| Total NodeJS Problems |       |
+| Current Daily Streak  |   0   |
+|      Last Streak      |       |
+|    Current Streak     |       |
 
 ---
 
@@ -17,6 +17,8 @@
 - Coding Practice Sessions - Dynamic Programming Saturday, September 14⋅1:30 – 3:30pm
 - Interview Practice Night - Monday, September 9⋅6:15 – 8:15pm
 - Interview Practice Night - Monday, September 16⋅6:15 – 8:15pm
+- Interview Practice Night - Monday, September 23⋅6:15 – 8:15pm
+- Seattle Software Crafters - Monday, September 23⋅6:15 – 8:15pm
 
 # Completed Readings on Architecture, Scalibility, Use-Cases
 
