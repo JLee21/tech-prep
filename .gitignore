@@ -1,2 +1,6 @@
 .vscode
 mandliya
+
+# my own video recordings
+*.mov
+*.m4a
