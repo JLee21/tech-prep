@@ -21,10 +21,18 @@ grid4 = [[0]]
 # one island
 grid5 = [[1]]
 
+grid6 = [
+    ["1", "1", "0", "0", "0"],
+    ["1", "1", "0", "0", "0"],
+    ["0", "0", "1", "0", "0"],
+    ["0", "0", "0", "1", "1"]]
+
 """DFS"""
 
 
 def countIslandDFS(grid):
+    if not len(grid):
+        return 0
     cnt = 0
     for row in range(len(grid)):
         for col in range(len(grid[0])):
@@ -55,6 +63,8 @@ def search(row, col, grid):
 
 
 def countIslandBFS(grid):
+    if not len(grid):
+        return 0
     cnt = 0
     for row in range(len(grid)):
         for col in range(len(grid[0])):

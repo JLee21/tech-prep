@@ -4,3 +4,5 @@ mandliya
 # my own video recordings
 *.mov
 *.m4a
+udemy-technical-interview
+*.pyc
