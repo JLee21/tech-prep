@@ -14,7 +14,6 @@ Output: ["the", "is", "sunny", "day"]
 Explanation: "the", "is", "sunny" and "day" are the four most frequent words,
     with the number of occurrence being 4, 3, 2 and 1 respectively.
 Note:
-You may assume k is always valid, 1 ≤ k ≤ number of unique elements.
 Input words contain only lowercase letters.
 Follow up:
 Try to solve it in O(n log k) time and O(n) extra space
@@ -27,7 +26,12 @@ Try to solve it in O(n log k) time and O(n) extra space
 # return candidates[:k]
 
 # heap
-counter = collections.Counter(words)
-heap = [(-count, word) for word, count in counter.items()]
-heapq.heapify(heap)
-[item[1] for item in heapq.nsmallest(k, heap)]
+# counter = collections.Counter(words)
+# heap = [(-count, word) for word, count in counter.items()]
+# heapq.heapify(heap)
+# [item[1] for item in heapq.nsmallest(k, heap)]
+
+string = "12345"
+
+for idx in range(len(string)-1, -1, -1):
+    print(string[idx])
