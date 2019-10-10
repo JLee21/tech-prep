@@ -35,7 +35,7 @@ print(IDsOfPackages(truckSpace, packageSpace))  # ans = [1, 4]
 
 """
 Solution 1 Hash table and complement
-Does not return the pair with the biggest package
+Does NOT return the pair with the biggest package
 """
 
 
