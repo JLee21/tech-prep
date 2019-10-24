@@ -39,3 +39,8 @@ def test_post_rec():
 def test_post_iter():
     assert drills.solution_post_iter(root) == [5, 6, 2, 7, 8, 3, 1]
     assert drills.solution_post_iter(None) == []
+
+
+def test_level_order():
+    assert drills.solution_level_order(root) == [1, 2, 3, 5, 6, 7, 8]
+    assert drills.solution_level_order(None) == []
