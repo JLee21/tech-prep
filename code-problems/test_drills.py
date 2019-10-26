@@ -42,10 +42,16 @@ def test_post_iter():
 
 
 def test_level_recur():
-    assert drills.solution_level_recur(root) == [1, 2, 3, 5, 6, 7, 8]
-    assert drills.solution_level_recur(None) == []
+    ans = [[1], [2, 3], [5, 6, 7, 8]]
+    result = drills.solution_level_recur(root)
+    for row, ans_row in zip(result, ans):
+        assert row == ans_row
+    assert drills.solution_level_iter(None) == []
 
 
 def test_level_iter():
-    assert drills.solution_level_iter(root) == [1, 2, 3, 5, 6, 7, 8]
+    ans = [[1], [2, 3], [5, 6, 7, 8]]
+    result = drills.solution_level_iter(root)
+    for row, ans_row in zip(result, ans):
+        assert row == ans_row
     assert drills.solution_level_iter(None) == []
