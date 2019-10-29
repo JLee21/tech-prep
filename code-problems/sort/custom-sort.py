@@ -1,7 +1,6 @@
 """
-Given a list of alphanumeric words/numbers sort based on the following rules.
-
-- all alphabetic words preceed all numeric words
+Given a list of alphanumeric words/numbers sort all alphabetic words preceed 
+all numeric words
 
 input = [45, 34, "bat", "ape", 46] -> ["bat", "ape", 45, 34, 46]
 

@@ -46,7 +46,7 @@ def test_level_recur():
     result = drills.solution_level_recur(root)
     for row, ans_row in zip(result, ans):
         assert row == ans_row
-    assert drills.solution_level_iter(None) == []
+    assert drills.solution_level_recur(None) == []
 
 
 def test_level_iter():

@@ -12,8 +12,13 @@ Given a root node to a binary tree...
     return the values Inorder - iteratively - [5, 2, 6, 1, 7, 3, 8]
     return the values Postorder - recursively - [5, 6, 2, 7, 8, 3, 1]
     return the values Postorder - iteratively - [5, 6, 2, 7, 8, 3, 1]
-    return the values Level order - recursively - [1, 2, 3, 5, 6, 7, 8]
-    return the values Level order - iteratively - [1, 2, 3, 5, 6, 7, 8]
+    return the values Level order - recursively - [[1], [2, 3], [5, 6, 7, 8]]
+    return the values Level order - iteratively - [[1], [2, 3], [5, 6, 7, 8]]
+
+
+Version 0.2 - Oct 29th - 0:46
+Version 0.2 - Oct 26th - 0:54
+Version 0.1 - Oct 24th - 1:04
 
 Version 0.2
     Add two more problems: Binary Tree Level Order recur and iter
