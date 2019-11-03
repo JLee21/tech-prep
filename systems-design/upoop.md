@@ -7,9 +7,11 @@ According to a The Seattle Times [article](https://www.seattletimes.com/seattle-
 # Requirements
 
 Functional
-Users will be able to save text information about the owner and dog
-Users will be able to upload a unique DNA identification in the form of text.
-Users will be able to check a stool signature for dog-owner identification.
+Users will be able to upload text information about the owner and dog
+Users will be able to query the system to check for a dog-match - by submitting a dog-owner identification
+
+Not In Scope
+Creating a dog-owner ID/signature based on a stool sample. It is simplified so that a user sees a stool sample and automagically converts that to a dog-owner signature (Ie, no DNA synsthesizing)
 
 # Design Considerations
 
