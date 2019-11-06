@@ -32,8 +32,37 @@ class Pear(object):
 
 
 class Fruit(Apple, Pear):
+    # See note above
     pass
 
 
 f = Fruit()
 print(f.count())
+
+
+class BaseSpace(object):
+
+    _type = "Default"
+
+    def get_type(self):
+        print(self.__type)
+
+
+class TruckSpace(BaseSpace):
+
+    _type = "Truck"
+
+    def get_type(self):
+        print(self._type)
+
+
+class CarSpace(BaseSpace):
+
+    def get_type(self):
+        print(self._type)
+
+
+truck = TruckSpace()
+truck.get_type()
+car = CarSpace()
+car.get_type()

@@ -17,10 +17,6 @@ return the values Level order - recursively - [[1], [2, 3], [5, 6, 7, 8]]
 return the values Level order - iteratively - [[1], [2, 3], [5, 6, 7, 8]]
 
 
-Version 0.2 - Oct 29th - 0:46
-Version 0.2 - Oct 26th - 0:54
-Version 0.1 - Oct 24th - 1:04
-
 Version 0.2
     Add two more problems: Binary Tree Level Order recur and iter
 
